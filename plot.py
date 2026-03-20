@@ -13,7 +13,7 @@ plt.title("Comparison of Routing Methods")
 for i, v in enumerate(latencies):
     plt.text(i, v + 1, f"{v:.2f}", ha='center')
 
-# 👇 هذا السطر المهم
-plt.savefig("results/final_results.png", dpi=300, bbox_inches="tight")
+# 🔥 مهم جدًا: احفظ قبل show
+plt.savefig("results/final_results.png", dpi=300, bbox_inches='tight')
 
 plt.show()
