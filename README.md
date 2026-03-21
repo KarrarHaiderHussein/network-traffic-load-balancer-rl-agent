@@ -6,28 +6,50 @@
 
 ---
 
-## 📌 Overview
-
-This project implements a **Reinforcement Learning-based Load Balancer** that dynamically distributes network traffic across multiple servers using a **Deep Q-Network (DQN)** agent.
-
-The goal is to minimize latency and improve system efficiency by learning optimal routing decisions over time.
-
 ---
 
 ## 🧩 System Architecture
 
 <p align="center">
-  <img src="images/image1.png" width="45%">
-  <img src="images/image2.png" width="45%">
+  <img src="images/architecture.png" width="75%">
 </p>
 
-The architecture demonstrates how a Reinforcement Learning (DQN) agent interacts with a network environment to perform intelligent load balancing.
+<p align="center">
+<b>Figure 1:</b> Reinforcement Learning (DQN) agent interacting with the network environment to optimize traffic routing.
+</p>
 
-- Network traffic enters the environment  
-- The environment provides the current state  
-- The RL agent selects the best server  
-- The system computes latency and reward  
-- Feedback improves future decisions  
+---
+
+### 🔍 Comparison with Traditional Load Balancing
+
+<p git pull origin main --rebasealign="center">
+  <img src="images/architecture1.png" width="45%">
+  <img src="images/architecture2.png" width="45%">
+</p>
+
+<p align="center">
+<b>Figure 2:</b> Traditional load balancing architecture and common distribution algorithms (Round Robin, Least Connections, Hashing).
+</p>
+
+---
+
+### 🧠 How It Works
+
+- Incoming **network traffic** enters the environment  
+- The environment computes the current **state** (load, latency)  
+- The **DQN agent** selects the optimal server  
+- The system returns a **reward** based on latency performance  
+- The agent continuously improves decisions via **feedback loop**
+
+---
+
+---
+
+## 📌 Overview
+
+This project implements a **Reinforcement Learning-based Load Balancer** that dynamically distributes network traffic across multiple servers using a **Deep Q-Network (DQN)** agent.
+
+The goal is to minimize latency and improve system efficiency by learning optimal routing decisions over time.
 
 ---
 
