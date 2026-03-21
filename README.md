@@ -1,4 +1,4 @@
-# 🚀 Network Traffic Load Balancer using Reinforcement Learning Agent
+# 🚀 Network Traffic Load Balancer using RL Agent
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![Status](https://img.shields.io/badge/Status-Active-success)
@@ -61,7 +61,7 @@ python plot.py
 ```
 network-traffic-load-balancer-rl/
 │
-├── env.py                # Environment simulation
+├── env.py               # Environment simulation
 ├── dqn_agent.py         # RL Agent (DQN)
 ├── train.py             # Training script
 ├── evaluate.py          # Model evaluation
@@ -108,7 +108,7 @@ network-traffic-load-balancer-rl/
 
 ## 👨‍💻 Author
 
-Haider Hussein
+Karrar Haider 
 
 ---
 
