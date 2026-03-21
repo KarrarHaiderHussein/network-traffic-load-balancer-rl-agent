@@ -1,4 +1,4 @@
-# 🚀 Network Traffic Load Balancer using RL Agent
+# 🌐 Network Traffic Load Balancer using RL Agent
 
 ---
 
