@@ -11,24 +11,38 @@ The system dynamically distributes network traffic across servers to minimize la
 
 ## 🧩 System Architecture
 
+### 🔹 RL-Based Architecture
+
+<p align="center">
+<img src="images/architecture_rl.png" width="60%">
+</p>
+
+<p align="center">
+<b>Figure 1:</b> RL-based architecture showing how the agent interacts with the environment and selects the best server dynamically.
+</p>
+
+---
+
+### 🔍 Traditional Load Balancing
+
 <p align="center">
   <img src="images/architecture1.png" width="45%">
   <img src="images/architecture2.png" width="45%">
 </p>
 
 <p align="center">
-<b>Figure:</b> Traditional load balancing architecture and common algorithms such as Round Robin, Least Connections, and Hash-based routing.
+<b>Figure 2:</b> Traditional load balancing architecture and common algorithms such as Round Robin, Least Connections, and Hash-based routing.
 </p>
 
 ---
 
 ### ⚙️ How It Works
 
-- Incoming **network traffic** enters the environment  
-- The environment computes the current **state** (load, latency)  
-- The **DQN agent** selects the optimal server  
-- The system returns a **reward** based on latency performance  
-- The agent continuously improves decisions via **feedback loop**
+- Incoming network traffic enters the environment
+- The environment computes the current state (load, latency)
+- The DQN agent selects the optimal server
+- The system returns a reward based on latency performance
+- The agent continuously improves decisions via feedback loop
 
 ---
 
@@ -131,5 +145,3 @@ Karrar Haider
 ---
 
 ## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
