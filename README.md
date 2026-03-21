@@ -14,8 +14,8 @@ The system dynamically distributes network traffic across servers to minimize la
 ### 🔹 Load Balancing Architectures
 
 <p align="center">
-  <img src="images/architecture_rl.png" width="44%">
-  <img src="images/architecture2.png" width="48%">
+  <img src="images/architecture_rl.png" width="46%">
+  <img src="images/architecture2.png" width="46%">
 </p>
 
 <p align="center">
