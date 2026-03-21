@@ -15,7 +15,7 @@ The system dynamically distributes network traffic across servers to minimize la
 
 <p align="center">
   <img src="images/architecture_rl.png" width="44%">
-  <img src="images/architecture2.png" width="40%">
+  <img src="images/architecture2.png" width="48%">
 </p>
 
 <p align="center">
