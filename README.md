@@ -14,6 +14,23 @@ The goal is to minimize latency and improve system efficiency by learning optima
 
 ---
 
+## 🧩 System Architecture
+
+<p align="center">
+  <img src="images/image1.png" width="45%">
+  <img src="images/image2.png" width="45%">
+</p>
+
+The architecture demonstrates how a Reinforcement Learning (DQN) agent interacts with a network environment to perform intelligent load balancing.
+
+- Network traffic enters the environment  
+- The environment provides the current state  
+- The RL agent selects the best server  
+- The system computes latency and reward  
+- Feedback improves future decisions  
+
+---
+
 ## 🎯 Objectives
 
 * Reduce network congestion
