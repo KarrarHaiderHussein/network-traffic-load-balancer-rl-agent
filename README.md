@@ -1,4 +1,4 @@
-# 🚀 Network Traffic Load Balancer using RL Agent
+## 🌐 Network Traffic Load Balancer using RL Agent
 
 ---
 
@@ -131,5 +131,3 @@ network-traffic-load-balancer-rl/
 Karrar Haider 
 
 ---
-
-## ⭐ Support

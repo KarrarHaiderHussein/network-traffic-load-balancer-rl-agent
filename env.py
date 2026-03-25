@@ -19,7 +19,7 @@ class NetworkEnv:
         State format:
         [latency_A, congestion_A, latency_B, congestion_B, latency_C, congestion_C]
         """
-        state = []
+        state = [] 
 
         for _ in range(self.num_paths):
             latency = random.uniform(10, 100)        # ms
