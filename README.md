@@ -54,7 +54,7 @@ The system uses **Deep Reinforcement Learning (DQN)**:
 
 ---
 
-## ⚙️ How to Run
+## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
